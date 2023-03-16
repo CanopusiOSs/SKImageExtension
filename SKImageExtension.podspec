@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'SKImageExtension'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of SKImageExtension.'
+  s.summary          = 'A shyh5jnyhnyh jnhynby ort description of SKImageExtension.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,10 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+description: The description is shorter than the summary.
+    - NOTE  | xcodebuild:  note: Using new build system
+    - NOTE  | xcodebuild:  note: Using codesigning identity override: -
+    - NOTE  | xcodebuild:  note: Build preparation complet
                        DESC
 
   s.homepage         = 'https://github.com/CanopusiOSs/SKImageExtension'
@@ -29,14 +32,14 @@ TODO: Add long description of the pod here.
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '10.0'
-
-  s.source_files = 'SKImageExtension/Classes/**/*'
+  s.swift_version = "5.0.0"
+  s.source_files = 'SKImageExtension/Classes/*.swift'
   
   # s.resource_bundles = {
   #   'SKImageExtension' => ['SKImageExtension/Assets/*.png']
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+   s.frameworks = 'UIKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
